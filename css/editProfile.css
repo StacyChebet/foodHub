@@ -1,0 +1,43 @@
+#topNavBar{
+    /* border:3px;
+    border-style: solid;
+    border-color:#FCE205; */
+    font-size: 20px;
+}
+#topNavBar a:hover {
+    background-color: #311432;
+  }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#FCE205;
+    font-weight: bolder;
+}
+li {
+    font-family: 'Fugaz One', cursive;
+    display: inline;
+    padding-right: 20px;
+}
+.title{
+    font-family: 'Monoton', cursive;
+    padding-right: 900px;
+    font-size:40px;
+}
+.profileDetails{
+    border: 3px;
+    width:400px;
+}
+.edit{
+    display: inline-block;
+    float: right;
+}
+p{
+    display: inline-block;
+}
+
+
+    

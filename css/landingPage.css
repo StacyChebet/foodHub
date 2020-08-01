@@ -1,0 +1,148 @@
+.bgImage{
+    background-image: url(../images/food.jpeg);
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* border:3px;
+    border-style: solid;
+    border-color:#FCE205; */
+}
+.container{
+    position: absolute;
+    margin-top: 20px;
+    width: 100%;
+}
+#topNavBar{
+    /* border:3px;
+    border-style: solid;
+    border-color:#FCE205; */
+    font-size: 20px;
+    /* overflow: hidden; */
+    background-color: transparent;
+    display: inline;
+    
+}
+#topNavBar a:hover {
+    background-color: #311432;
+    color: #FCE205;
+  }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    vertical-align: middle;
+    height:100px;
+    width:100px;
+}
+a{
+    text-decoration: none;
+    color: #FCE205;
+}
+li {
+    font-family: 'Fugaz One', cursive;
+    display: inline;
+    padding-right: 15px;
+    float: right;
+}
+.dropDown{
+    overflow: hidden;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.dropDown .dropDownButton{
+    border: none;
+    outline: none;
+    color: #FCE205;
+    padding: 14px 16px;
+    font-family: 'Fugaz One', cursive;
+    background-color: transparent;
+    font-size: 20px;
+}
+.dropDown:hover .dropDownButton {
+    background-color: #311432;
+  }
+.dropDownContent{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropDownContent a{
+    float: none;
+    color: #311432;
+    padding: 12px 16px;
+    font-family: 'Fugaz One', cursive;
+    display: block;
+    text-align: left;
+}
+.dropDownContent a:hover {
+    background-color: #FCE205;
+  }
+.dropDown:hover .dropDownContent {
+    display: block;
+  }
+  
+.title{
+    font-family: 'Monoton', cursive;
+    padding-right: 300px;
+    font-size:40px;
+    float: left;
+}
+.container2{
+    background-color: #311432;
+    position: absolute;
+    margin-top: 250px;
+    opacity: 0.8;
+    height: 300px;
+    width: 550px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.container3{
+    /* border:3px;
+    border-style: solid;
+    border-color: #FCE205; */
+    /* background-color: #290916; */
+    /* position: absolute; */
+    
+    color: white;
+    
+}
+.oFood{
+    text-align: center;
+    background-color: #FCE205;
+    border-radius: 6px;
+}
+.oFood:hover{
+    background-color: #311432;
+    color: #FCE205;
+}
+.content{
+    /* border:3px;
+    border-style: solid;
+    border-color: #FCE205; */
+}
+.footer{
+    white-space: nowrap;
+    display: inline-block;
+}
+.contact{
+    height: 100px;
+    width: 100px;
+    /* border:3px;
+    border-style: solid;
+    border-color: #FCE205; */
+}
+.caption{
+    
+}
+.loginLink{
+    padding-right: 0px;
+}

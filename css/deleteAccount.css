@@ -1,0 +1,65 @@
+body{
+    height:800px;
+    /* background-image: url(../images/purple.jpeg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fugaz One', cursive;
+}
+.deleteAccountForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top: 5%;
+    justify-items: center;
+    height: 550px;
+    width: 700px;
+    text-align: center;
+    background-color: #311432;
+}
+p a:hover{
+    color: black;
+}
+#topNavBar{
+    /* border:3px;
+    border-style: solid;
+    border-color:#FCE205; */
+    font-size: 20px;
+}
+#topNavBar a:hover {
+    background-color: #311432;
+  }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#FCE205;
+    font-weight: bolder;
+}
+li {
+    font-family: 'Fugaz One', cursive;
+    display: inline;
+    padding-right: 20px;
+}
+.title{
+    font-family: 'Monoton', cursive;
+    padding-right: 900px;
+    font-size:40px;
+}
+
+.human{
+    height:100px;
+    width:100px;
+}
+label{
+    color: #FCE205;
+}
+.submit{
+    background-color: #FCE205;
+    border-radius: 6px;
+}
+

@@ -1,0 +1,95 @@
+body{
+    height:800px;
+    background-image: url(../images/purple.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fugaz One', cursive;
+}
+.formWrapper{
+    height: 600px;
+    width: 700px;
+    padding-top: 60px;
+    /* margin-left: 10%;
+    margin-right: 30%;
+    margin-top: 5%; */
+    margin: auto;
+    margin-top: 2.5%;
+    background-image: url(../images/purple.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formHeading{
+    text-align:center;
+}   
+.loginForm{
+    /* border: 5px; */
+    /* border-style: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top: 5%;
+    justify-items: center;
+    height: 550px;
+    width: 700px;
+    text-align: center;
+    background-color: #311432;
+    opacity: 0.8;
+}
+.login{
+    /* padding-top: 100px; */
+    margin-top:20px;
+    position: absolute;
+}
+p a:hover{
+    color: black;
+}
+#submit{
+    background-color: #FCE205;
+    border-radius: 6px;
+}
+#submit:hover{
+    background-color: #311432;
+    color:white;
+}
+#topNavBar{
+    /* border:3px;
+    border-style: solid;
+    border-color:#FCE205; */
+    font-size: 20px;
+}
+#topNavBar a:hover {
+    background-color: #311432;
+  }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#FCE205;
+    font-weight: bolder;
+}
+li {
+    font-family: 'Fugaz One', cursive;
+    display: inline;
+    padding-right: 20px;
+}
+.title{
+    font-family: 'Monoton', cursive;
+    padding-right: 900px;
+    font-size:40px;
+}
+.signup{
+    color: #FCE205;
+}
+.human{
+    height:100px;
+    width:100px;
+}
+label{
+    color: #FCE205;
+}

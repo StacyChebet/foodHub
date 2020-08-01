@@ -1,0 +1,53 @@
+body{
+    height:700px;
+    background-image: url(../images/orange.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fugaz One', cursive;
+}
+.registrationForm{
+    border: 5px;
+    border-style: solid;
+    margin:auto;
+    height: 600px;
+    width: 550px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+.register{
+    margin-top:15%;
+}
+#topNavBar{
+    /* border:3px;
+    border-style: solid;
+    border-color:#FCE205; */
+    font-size: 20px;
+}
+#topNavBar a:hover {
+    background-color: #311432;
+  }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a{
+    text-decoration: none;
+    color: white;
+
+}
+li {
+    font-family: 'Fugaz One', cursive;
+    display: inline;
+    padding-right: 20px;
+}
+.title{
+    font-family: 'Monoton', cursive;
+    padding-right: 800px;
+    font-size:40px;
+}
+p a{
+    color: #FCE205;
+}

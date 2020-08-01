@@ -1,0 +1,48 @@
+.main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.restaurant{
+    float: left;
+    /* margin-left: 100px; */
+    margin-top: 100px;
+}
+.user{
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+.admin{
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+p a{
+    color: black;
+    text-decoration: none;
+}
+.user p a:hover{
+    color: #FCE205;
+}
+.restaurant p a:hover{
+    color: #FCE205;
+}
+.restaurant img{
+    height: 100px;
+    width: 100px;
+}
+.user img{
+    height: 100px;
+    width: 100px;
+}
+.admin img{
+    height: 100px;
+    width: 100px;
+}
+.admin p a:hover{
+    color: #FCE205;
+}
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,92 @@
+.bgImage{
+    background-image: url(../images/food.jpeg);
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* border:3px;
+    border-style: solid;
+    border-color:#FCE205; */
+}
+.container{
+    position: absolute;
+    margin-top: 20px;
+    width: 100%;
+}
+#topNavBar{
+    /* border:3px;
+    border-style: solid;
+    border-color:#FCE205; */
+    font-size: 20px;
+    /* overflow: hidden; */
+    background-color: transparent;
+    display: inline;
+    
+}
+#topNavBar a:hover {
+    background-color: #311432;
+    color: #FCE205;
+  }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    vertical-align: middle;
+    height:100px;
+    width:100px;
+}
+a{
+    text-decoration: none;
+    color: #FCE205;
+}
+li {
+    font-family: 'Fugaz One', cursive;
+    display: inline;
+    padding-right: 30px;
+    float: right;
+}
+
+
+  
+.title{
+    font-family: 'Monoton', cursive;
+    padding-right: 300px;
+    font-size:40px;
+    float: left;
+}
+.container3{
+    /* border:3px;
+    border-style: solid;
+    border-color: #FCE205; */
+    /* background-color: #290916; */
+    /* position: absolute; */
+    
+    color: white;
+    
+}
+
+.content{
+    /* border:3px;
+    border-style: solid;
+    border-color: #FCE205; */
+}
+.footer{
+    white-space: nowrap;
+    display: inline-block;
+}
+.contact{
+    height: 100px;
+    width: 100px;
+    /* border:3px;
+    border-style: solid;
+    border-color: #FCE205; */
+}
+.caption{
+    
+}
+.loginLink{
+    padding-right: 0px;
+}
